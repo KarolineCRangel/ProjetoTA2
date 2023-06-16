@@ -37,7 +37,7 @@
 
 ### Fluxo Alternativo:
 - O sistema exibe uma mensagem de erro, caso hajam campos em branco ou informações inválidas.
-- o sistema limpa os campos e dá a opção do funcionário digitar novamente ou cancelar a adição ao estoque.
+- O sistema limpa os campos e dá a opção do funcionário digitar novamente ou cancelar a adição ao estoque.
 
 
 ## Vender Jóias
