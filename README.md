@@ -33,13 +33,14 @@ Todas as entidades estenderão da classe Entity que possui um id único gerado p
   - cliente (Cliente): Cliente que realizou a compra.
   - joia (Joia): jóia comprada.
   - data_compra (date): Data da venda.
-  - valor (number): Valor pago na compra.
+  - valor_total (number): Valor pago na compra.
   - forma_pagamento (string): Forma de pagamento do cliente.
 
 ### Estoque
 - Atributos:
   - joia (Joia): jóia em estoque.
   - quantidade (string): Quantidade de determinada jóia em estoque.
+  - valor (double): Valor da jóia.
 
 ### Cancelamento
 - Atributos:
