@@ -31,7 +31,7 @@
 ### Fluxo Principal:
 - O funcionário realiza o login no sistema.
 - O funcionário seleciona "adicionar joia ao estoque".
-- O sistema solicita as informações da nova jóia (nome, tipo, quantidade).
+- O sistema solicita as informações da nova jóia (nome, tipo, valor e quantidade).
 - O funcionário insere as informações da jóia.
 - O sistema adiciona a nova jóia ao estoque.
 

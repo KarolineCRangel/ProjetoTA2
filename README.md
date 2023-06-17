@@ -19,6 +19,7 @@ Todas as entidades estenderão da classe Entity que possui um id único gerado p
 - Atributos:
   - nome (string): Nome da jóia.
   - tipo (string): Tipo da jóia.
+  - valor (number): Valor da jóia.
 
 ### Cliente
 - Atributos:
@@ -40,8 +41,7 @@ Todas as entidades estenderão da classe Entity que possui um id único gerado p
 - Atributos:
   - joia (Joia): jóia em estoque.
   - quantidade (string): Quantidade de determinada jóia em estoque.
-  - valor (double): Valor da jóia.
-
+  
 ### Cancelamento
 - Atributos:
   - usuario (Usuario): Funcionário que cancelou a compra.
