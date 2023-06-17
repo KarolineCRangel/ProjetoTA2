@@ -17,12 +17,12 @@ E dá a opção de digitar novamente
 
 ## Cenário: Usuário faz o login com sucesso
 Dado que o funcionário quer fazer login no sistema  
-Quando o funcionário informar seu nome de login "<nome_de_usuario>" e sua senha "<senha>"  
+Quando o funcionário informar seu nome de login "<nome_de_usuario>" e sua senha "<senha_do_funcionario>"  
 Então o sistema deve autenticar o funcionário com sucesso  
 
 ## Cenário: Usuário insere a senha errada
 Dado que o funcionário tente fazer login no sistema  
-Quando o funcionário informar seu nome de login "<nome_de_login>" e sua senha "<senha>"  
+Quando o funcionário informar seu nome de login "<nome_de_login>" e sua senha "<senha_do_funcionario>"  
 Então o sistema deve exibir uma mensagem de erro de login por senha inválida  
 
 # Funcionalidade: Adicionar jóia ao estoque
