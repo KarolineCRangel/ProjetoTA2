@@ -1,4 +1,4 @@
-// import express from 'express';
+//import express from 'express';
 import express, { Router } from 'express';
 
 const app = express()
@@ -6,7 +6,7 @@ const route = Router();
 
 route.get('/api/ola/:info', () => { console.log('ola') });
 
-route.get('/', (request, response) => {
+route.get('/', (request: any, response: { json: (arg0: { message: string; }) => any; }) => {
     return response.json({ message: 'Hello World' });
 });
 
